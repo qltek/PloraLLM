@@ -21,10 +21,10 @@ body {
 
 /* Navigation Bar */
 .navbar {
-  /* 与Hero相同的背景色，去掉下边框 */
-  background: #e9ecef;
-  border-bottom: none; /* 移除分割线 */
-  padding: 10px 0;     /* 可以微调这行数值控制导航栏上下内边距 */
+  /* 这里改为纯白背景，并保持无下边框 */
+  background: #fff;
+  border-bottom: none;
+  padding: 10px 0;
 }
 .logo {
   font-size: 24px;
@@ -47,10 +47,10 @@ body {
 
 /* Hero Section */
 .hero {
-  background: #e9ecef;
+  /* 这里也改为纯白背景 */
+  background: #fff;
   text-align: center;
   padding: 60px 20px;
-  /* 去除顶部与导航栏的视觉区分，相同背景色即可衔接 */
 }
 .hero-content h2 {
   font-size: 40px;
@@ -112,3 +112,4 @@ body {
     margin: 10px 0;
   }
 }
+
